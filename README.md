@@ -1,207 +1,251 @@
-# Comprehensive Bioinformatics Analysis of the Human PTEN Gene and Protein
+# 🧬 Comprehensive Bioinformatics Analysis of the Human PTEN Gene and Protein
 
 <p align="center">
   <img src="images/repository_banner.png" alt="PTEN Bioinformatics Analysis Banner" width="100%">
 </p>
 
----
-
-## Project Overview
-
-This repository presents a comprehensive **in silico bioinformatics analysis** of the human **PTEN (Phosphatase and Tensin Homolog)** gene and protein.
-
-PTEN is one of the most important tumor suppressor genes involved in regulating cell proliferation, apoptosis, cell survival, genomic stability, and the PI3K/AKT signaling pathway. This project integrates multiple publicly available bioinformatics databases and computational tools to investigate PTEN gene annotation, sequence characteristics, protein structure, functional domains, molecular interactions, pathway enrichment, disease associations, and clinical significance.
-
----
-
-# Bioinformatics Workflow
-
 <p align="center">
-  <img src="images/workflow.png" alt="Bioinformatics Workflow" width="900">
+An integrated <b>in silico</b> bioinformatics study investigating the genomic organization, protein structure, molecular interactions, functional enrichment, disease association, and clinical relevance of the human <b>PTEN</b> gene.
 </p>
 
-**Figure 1.** Workflow employed for the comprehensive bioinformatics analysis of the human PTEN gene and protein.
+---
+
+# 📖 Project Overview
+
+The **Phosphatase and Tensin Homolog (PTEN)** gene is one of the most important tumor suppressor genes in humans. PTEN negatively regulates the PI3K/AKT signaling pathway and plays essential roles in cell proliferation, apoptosis, migration, metabolism, and genomic stability. Mutations or loss of PTEN function are associated with numerous cancers and inherited disorders.
+
+This project presents a comprehensive computational analysis of the human PTEN gene and protein using multiple publicly available bioinformatics databases and computational tools. The study integrates genomic, proteomic, structural, functional, and clinical analyses into a single reproducible workflow.
 
 ---
 
-# Gene Annotation
+# 🎯 Project Objectives
+
+- Retrieve and annotate the human PTEN gene.
+- Identify the canonical transcript and protein sequence.
+- Perform coding sequence and ORF analysis.
+- Analyze protein physicochemical properties.
+- Identify conserved functional domains.
+- Predict protein secondary and tertiary structures.
+- Construct the protein–protein interaction network.
+- Perform Gene Ontology and pathway enrichment analyses.
+- Investigate disease-associated variants.
+- Analyze PTEN expression and survival across cancers.
+
+---
+
+# 🔬 Bioinformatics Workflow
 
 <p align="center">
-  <img src="images/gene_annotation.png" width="900">
+<img src="images/workflow.png" width="950">
 </p>
 
-**Figure 2.** PTEN gene annotation retrieved from the NCBI Gene database.
+**Figure 1.** Bioinformatics workflow employed for the comprehensive analysis of the human PTEN gene and protein.
 
 ---
 
-# Open Reading Frame (ORF) Analysis
+# 📊 Analysis Results
+
+## 1. Gene Annotation
 
 <p align="center">
-  <img src="images/ORF_analysis.png" width="900">
+<img src="images/gene_annotation.png" width="900">
 </p>
 
-**Figure 3.** Open Reading Frame (ORF) analysis performed using NCBI ORF Finder.
+Gene annotation was performed using the NCBI Gene database to determine chromosomal location, transcript information, genomic organization, and reference sequence identifiers.
 
 ---
 
-# Protein Structure Prediction
+## 2. Open Reading Frame (ORF) Analysis
 
 <p align="center">
-  <img src="images/protein_structure.png" width="650">
+<img src="images/ORF_analysis.png" width="900">
 </p>
 
-**Figure 4.** Three-dimensional structure prediction of the human PTEN protein generated using the AlphaFold Protein Structure Database.
+The canonical coding sequence was analyzed using NCBI ORF Finder to verify the protein-coding region and translation frame.
 
 ---
 
-# Protein–Protein Interaction Network
+## 3. Protein Structure Prediction
 
 <p align="center">
-  <img src="images/PPI_network.png" width="700">
+<img src="images/protein_structure.png" width="650">
 </p>
 
-**Figure 5.** Protein–protein interaction network of PTEN generated using the STRING database.
+The three-dimensional structure of PTEN was obtained from the AlphaFold Protein Structure Database and examined together with secondary structural information.
 
 ---
 
-# Gene Ontology (GO) Enrichment Analysis
+## 4. Protein–Protein Interaction Network
 
 <p align="center">
-  <img src="images/GO_enrichment.png" width="900">
+<img src="images/PPI_network.png" width="700">
 </p>
 
-**Figure 6.** Gene Ontology enrichment analysis illustrating enriched biological processes, molecular functions, and cellular components associated with PTEN.
+STRING database analysis identified major PTEN interaction partners involved in PI3K/AKT signaling, apoptosis, cell adhesion, and tumor suppression.
 
 ---
 
-# Pathway Enrichment Analysis
+## 5. Gene Ontology Enrichment
 
 <p align="center">
-  <img src="images/pathway_analysis.png" width="900">
+<img src="images/GO_enrichment.png" width="900">
 </p>
 
-**Figure 7.** Reactome pathway enrichment analysis highlighting major signaling pathways associated with PTEN.
+GO enrichment analysis identified biological processes, molecular functions, and cellular components significantly associated with PTEN.
 
 ---
 
-# Gene Expression Analysis
+## 6. Pathway Enrichment Analysis
 
 <p align="center">
-  <img src="images/gene_expression.png" width="950">
+<img src="images/pathway_analysis.png" width="900">
 </p>
 
-**Figure 8.** PTEN gene expression across multiple cancer types analyzed using GEPIA3.
+Reactome pathway analysis demonstrated PTEN involvement in signal transduction, apoptosis, immune regulation, and cancer-associated pathways.
 
 ---
 
-# Survival Analysis
+## 7. Gene Expression Analysis
 
 <p align="center">
-  <img src="images/survival_analysis.png" width="750">
+<img src="images/gene_expression.png" width="900">
 </p>
 
-**Figure 9.** Kaplan–Meier survival analysis illustrating the prognostic significance of PTEN expression.
+GEPIA3 analysis compared PTEN expression between tumor and normal tissues across multiple cancer types.
 
 ---
 
-# Disease-Associated Variants
+## 8. Survival Analysis
 
 <p align="center">
-  <img src="images/disease_association.png" width="950">
+<img src="images/survival_analysis.png" width="750">
 </p>
 
-**Figure 10.** ClinVar visualization showing pathogenic and benign PTEN variants associated with human diseases.
+Kaplan–Meier survival analysis evaluated the prognostic significance of PTEN expression in human cancers.
 
 ---
 
-# Bioinformatics Databases and Tools Used
+## 9. Disease Association
 
-- NCBI Gene
-- NCBI RefSeq
-- UniProt
-- ORF Finder
-- ExPASy ProtParam
-- Conserved Domain Database (CDD)
-- AlphaFold Protein Structure Database
-- DSSP
-- STRING
-- ShinyGO
-- Reactome
-- OMIM
-- ClinVar
-- Therapeutic Target Database (TTD)
-- GEPIA3
+<p align="center">
+<img src="images/disease_association.png" width="900">
+</p>
+
+ClinVar and OMIM resources were used to investigate disease-associated PTEN variants and their clinical relevance.
 
 ---
 
-# Repository Structure
+# 📁 Repository Structure
 
-```
-PTEN-Bioinformatics-Analysis
-│
-├── images
-│   ├── repository_banner.png
-│   ├── workflow.png
-│   ├── gene_annotation.png
-│   ├── ORF_analysis.png
-│   ├── protein_structure.png
-│   ├── PPI_network.png
-│   ├── GO_enrichment.png
-│   ├── pathway_analysis.png
-│   ├── gene_expression.png
-│   ├── survival_analysis.png
-│   └── disease_association.png
+```text
+PTEN-Bioinformatics-Analysis/
 │
 ├── README.md
-└── LICENSE
+├── LICENSE
+├── RESULTS.md
+│
+├── data/
+│   ├── PTEN_gene_information.txt
+│   ├── PTEN_CDS.fasta
+│   ├── PTEN_protein_sequence.fasta
+│   ├── ProtParam_results.txt
+│   ├── STRING_network_statistics.txt
+│   ├── GO_enrichment_results.csv
+│   ├── Reactome_pathways.csv
+│   └── GEPIA_expression_summary.txt
+│
+├── docs/
+│   └── project_summary.md
+│
+└── images/
+    ├── repository_banner.png
+    ├── workflow.png
+    ├── gene_annotation.png
+    ├── ORF_analysis.png
+    ├── protein_structure.png
+    ├── PPI_network.png
+    ├── GO_enrichment.png
+    ├── pathway_analysis.png
+    ├── gene_expression.png
+    ├── survival_analysis.png
+    └── disease_association.png
 ```
 
 ---
 
-# Key Objectives
+# 🛠️ Bioinformatics Databases and Tools
 
-- Retrieve PTEN gene and protein sequence information.
-- Perform ORF identification and sequence characterization.
-- Analyze physicochemical properties of the PTEN protein.
-- Identify conserved functional domains.
-- Predict and visualize the three-dimensional protein structure.
-- Investigate protein–protein interaction networks.
-- Perform Gene Ontology enrichment analysis.
-- Explore biological pathways involving PTEN.
-- Assess disease-associated variants.
-- Evaluate PTEN gene expression and survival associations across cancers.
-
----
-
-# References
-
-- NCBI Gene Database
-- UniProt Knowledgebase
-- NCBI ORF Finder
-- ExPASy ProtParam
-- Conserved Domain Database (CDD)
-- AlphaFold Protein Structure Database
-- STRING Database
-- ShinyGO
-- Reactome Pathway Database
-- OMIM
-- ClinVar
-- Therapeutic Target Database (TTD)
-- GEPIA3
+| Database / Tool | Purpose |
+|-----------------|---------|
+| NCBI Gene | Gene annotation |
+| Genome Data Viewer (GDV) | Genomic visualization |
+| RefSeq | Canonical transcript and CDS |
+| UniProt | Protein sequence retrieval |
+| ORF Finder | Open Reading Frame analysis |
+| ExPASy ProtParam | Physicochemical characterization |
+| Conserved Domain Database (CDD) | Conserved domain identification |
+| AlphaFold Protein Structure Database | Protein structure prediction |
+| DSSP | Secondary structure analysis |
+| STRING | Protein–protein interaction analysis |
+| ShinyGO | GO enrichment analysis |
+| Reactome | Pathway enrichment |
+| OMIM | Disease information |
+| ClinVar | Variant interpretation |
+| Therapeutic Target Database (TTD) | Therapeutic relevance |
+| GEPIA3 | Expression and survival analysis |
 
 ---
 
-# Author
+# 📂 Supporting Files
+
+The repository also includes:
+
+- PTEN nucleotide coding sequence (CDS)
+- Canonical PTEN protein FASTA sequence
+- ProtParam physicochemical analysis
+- STRING interaction statistics
+- GO enrichment results
+- Reactome pathway summary
+- GEPIA expression summary
+- Comprehensive project summary
+
+---
+
+# 📄 Project Summary
+
+A detailed project summary is available in:
+
+```text
+docs/project_summary.md
+```
+
+---
+
+# 🚀 Future Scope
+
+Potential future extensions include:
+
+- Comparative genomics
+- Molecular docking
+- Molecular dynamics simulation
+- Evolutionary analysis
+- RNA-seq integration
+- Machine learning-based variant prediction
+
+---
+
+# 👨‍🔬 Author
 
 **Soumojit Ghosh**
 
 B.Sc. Biotechnology  
 St. Xavier's College, Burdwan
 
-GitHub: https://github.com/soumojitghosh3706-source
+GitHub Profile:
+https://github.com/soumojitghosh3706-source
 
 ---
 
-# License
+# 📜 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.

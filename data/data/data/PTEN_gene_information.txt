@@ -1,0 +1,46 @@
+PTEN Gene Information
+=====================
+
+Official Gene Symbol : PTEN
+Full Gene Name       : Phosphatase and Tensin Homolog
+Gene ID              : 5728
+Organism             : Homo sapiens (Human)
+
+Chromosomal Location
+--------------------
+Chromosome           : 10
+Cytogenetic Band     : 10q23.31
+Genome Assembly      : GRCh38.p14
+
+Genomic Coordinates
+-------------------
+Chromosome 10: 87,863,625 – 87,971,930
+
+Gene Structure
+--------------
+Number of Exons      : 10
+Canonical Transcript : NM_000314.8
+Canonical Protein    : NP_000305.3
+UniProt Accession    : P60484
+
+Protein Information
+-------------------
+Protein Length       : 403 amino acids
+Molecular Weight     : ~47.17 kDa
+Theoretical pI       : 5.94
+
+Major Functional Domains
+------------------------
+• Phosphatase (PTP) catalytic domain
+• C2 membrane-binding domain
+• C-terminal regulatory tail
+
+Primary Biological Function
+---------------------------
+PTEN is a dual-specificity phosphatase that negatively regulates the PI3K/AKT signalling pathway by converting phosphatidylinositol (3,4,5)-trisphosphate (PIP3) into phosphatidylinositol (4,5)-bisphosphate (PIP2). It plays an essential role in regulating cell proliferation, apoptosis, migration, metabolism, and tumour suppression.
+
+Databases Referenced
+--------------------
+• NCBI Gene
+• RefSeq
+• UniProt

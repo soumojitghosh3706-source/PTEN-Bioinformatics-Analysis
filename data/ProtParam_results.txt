@@ -1,0 +1,105 @@
+PTEN Protein Physicochemical Properties
+=======================================
+
+Protein Information
+-------------------
+Protein Name           : Phosphatase and Tensin Homolog (PTEN)
+Organism               : Homo sapiens
+RefSeq Protein         : NP_000305.3
+Number of Amino Acids  : 403
+
+Basic Properties
+----------------
+Molecular Weight       : 47,166.29 Da
+Theoretical pI         : 5.94
+
+Amino Acid Composition
+----------------------
+Alanine (A)            : 17 (4.2%)
+Arginine (R)           : 20 (5.0%)
+Asparagine (N)         : 23 (5.7%)
+Aspartic acid (D)      : 33 (8.2%)
+Cysteine (C)           : 10 (2.5%)
+Glutamine (Q)          : 13 (3.2%)
+Glutamic acid (E)      : 29 (7.2%)
+Glycine (G)            : 15 (3.7%)
+Histidine (H)          : 13 (3.2%)
+Isoleucine (I)         : 20 (5.0%)
+Leucine (L)            : 27 (6.7%)
+Lysine (K)             : 34 (8.4%)
+Methionine (M)         : 9 (2.2%)
+Phenylalanine (F)      : 25 (6.2%)
+Proline (P)            : 23 (5.7%)
+Serine (S)             : 22 (5.5%)
+Threonine (T)          : 21 (5.2%)
+Tryptophan (W)         : 2 (0.5%)
+Tyrosine (Y)           : 23 (5.7%)
+Valine (V)             : 24 (6.0%)
+
+Charged Residues
+----------------
+Negatively Charged (Asp + Glu) : 62
+Positively Charged (Arg + Lys) : 54
+
+Atomic Composition
+------------------
+Carbon (C)             : 2113
+Hydrogen (H)           : 3215
+Nitrogen (N)           : 561
+Oxygen (O)             : 630
+Sulfur (S)             : 19
+
+Chemical Formula
+----------------
+C2113H3215N561O630S19
+
+Total Number of Atoms
+---------------------
+6538
+
+Extinction Coefficients
+------------------------
+Assuming all Cys residues form cystines
+Extinction Coefficient : 45895 M⁻¹ cm⁻¹
+Abs 0.1% (=1 g/L)      : 0.973
+
+Assuming all Cys residues are reduced
+Extinction Coefficient : 45270 M⁻¹ cm⁻¹
+Abs 0.1% (=1 g/L)      : 0.960
+
+Estimated Half-life
+-------------------
+Mammalian Reticulocytes (in vitro) : 30 hours
+Yeast (in vivo)                    : >20 hours
+Escherichia coli (in vivo)         : >10 hours
+
+Protein Stability
+-----------------
+Instability Index      : 44.21
+Prediction             : Unstable
+
+Aliphatic Index
+---------------
+66.97
+
+Grand Average of Hydropathicity (GRAVY)
+---------------------------------------
+-0.690
+
+Interpretation
+--------------
+• PTEN consists of 403 amino acid residues.
+• The theoretical isoelectric point (pI) of 5.94 indicates that PTEN is an acidic protein.
+• The negative GRAVY value (-0.690) suggests that the protein is predominantly hydrophilic.
+• An aliphatic index of 66.97 indicates moderate thermostability.
+• The instability index (44.21) classifies PTEN as unstable under the ProtParam prediction model.
+• The extinction coefficient indicates that PTEN can be accurately quantified using UV absorbance at 280 nm.
+
+Software Used
+-------------
+ExPASy ProtParam
+https://web.expasy.org/protparam/
+
+Project
+-------
+Comprehensive Bioinformatics Analysis of the Human PTEN Gene and Protein

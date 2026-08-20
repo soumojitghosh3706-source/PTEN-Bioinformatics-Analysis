@@ -154,8 +154,9 @@ PTEN-Bioinformatics-Analysis/
 │   ├── Reactome_pathways.csv
 │   └── GEPIA_expression_summary.txt
 │
-├── docs/
-│   └── project_summary.md
+├──docs/
+|    ├── project_summary.md
+|    └── references.md
 │
 └── images/
     ├── repository_banner.png

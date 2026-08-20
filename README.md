@@ -210,7 +210,11 @@ The repository also includes:
 - Comprehensive project summary
 
 ---
+## References
 
+See [References](Docs/References.md) for the databases, tools, and scientific literature used in this analysis.
+
+---
 # 📄 Project Summary
 
 A detailed project summary is available in:
